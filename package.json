@@ -1,0 +1,21 @@
+{
+  "name": "cozy-afternoon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack serve --open"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cozy-sun-bear": "git+https://github.com/respinos/cozy-sun-bear.git#use-webpack"
+  },
+  "devDependencies": {
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
